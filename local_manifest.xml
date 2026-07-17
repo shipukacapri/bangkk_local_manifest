@@ -4,20 +4,24 @@
   <remote
         name="gitlab"
         fetch="https://gitlab.com/" />
+
+<remote
+        name="github"
+        fetch="https://github.com/" />
   
   <!-- Device tree for Motorola G84 bangkk (your fork) -->
   <project
       path="device/motorola/bangkk"
       name="shipukacapri/android_device_motorola_bangkk"
       remote="github"
-      revision="infinity-16" />
+      revision="voltage-16" />
 
  <!-- Common device tree for sm6375 platform (your fork) -->
   <project
       path="device/motorola/sm6375-common"
       name="shipukacapri/android_device_motorola_sm6375-common"
       remote="github"
-      revision="dolby-23.2" />
+      revision="voltage-dolby" />
 
    <!-- Kernel tree (your fork) -->
   <project
