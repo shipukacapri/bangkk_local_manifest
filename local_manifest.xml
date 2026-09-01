@@ -33,14 +33,14 @@
   <!-- Vendor blobs for bangkk (your fork) -->
   <project
       path="vendor/motorola/bangkk"
-      name="LineageOS/proprietary_vendor_motorola_bangkk"
+      name="TheMuppets/proprietary_vendor_motorola_bangkk"
       remote="github"
       revision="lineage-24.0" />
 
    <!-- Common vendor blobs (your fork) -->
   <project
       path="vendor/motorola/sm6375-common"
-      name="LineageOS/proprietary_vendor_motorola_sm6375-common"
+      name="TheMuppets/proprietary_vendor_motorola_sm6375-common"
       remote="github"
       revision="lineage-24.0" />
   
