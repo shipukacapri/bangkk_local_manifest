@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote
+ <remote
+        name="github"
+        fetch="https://github.com/" />
+  
+ <remote
         name="gitlab-deivid"
         fetch="https://gitlab.com/Deivid21/" />
   
@@ -10,14 +14,14 @@
       path="device/motorola/bangkk"
       name="shipukacapri/android_device_motorola_bangkk"
       remote="github"
-      revision="evo-17" />
+      revision="voltage-17" />
 
  <!-- Common device tree for sm6375 platform (your fork) -->
   <project
       path="device/motorola/sm6375-common"
       name="shipukacapri/android_device_motorola_sm6375-common"
       remote="github"
-      revision="erofs-a17" />
+      revision="volt-17" />
 
    <!-- Kernel tree (your fork) -->
   <project
@@ -29,16 +33,16 @@
   <!-- Vendor blobs for bangkk (your fork) -->
   <project
       path="vendor/motorola/bangkk"
-      name="shipukacapri/proprietary_vendor_motorola_bangkk"
+      name="LineageOS/proprietary_vendor_motorola_bangkk"
       remote="github"
-      revision="android-17" />
+      revision="lineage-24.0" />
 
    <!-- Common vendor blobs (your fork) -->
   <project
       path="vendor/motorola/sm6375-common"
-      name="shipukacapri/proprietary_vendor_motorola_sm6375-common"
+      name="LineageOS/proprietary_vendor_motorola_sm6375-common"
       remote="github"
-      revision="android-17" />
+      revision="lineage-24.0" />
   
 <!-- Motorola hardware (contains hardware/motorola/sepolicy/qti/SEPolicy.mk) -->
 <project
